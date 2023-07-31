@@ -1,0 +1,151 @@
+body {
+    font-family: 'Manrope', sans-serif;
+}
+
+.heading {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+}
+
+header {
+    background-color: #24053E;
+    padding: 16px;
+    margin-bottom: 180px;
+    position: relative;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+nav a {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    text-decoration-color: #44FFA1;
+    transition: linear .3s;
+}
+
+nav a:hover {
+    color: #44FFA1;
+}
+
+header .container {
+    text-align: center;
+    padding-bottom: 156px;
+}
+
+header .container h1 {
+    color: #FFF;
+    font-size: 50px;
+    padding-top: 48px;
+}
+
+header .container .highlight {
+    text-decoration-line: underline;
+    text-decoration-color: #44FFA1;
+}
+
+.container button {
+    background-color: #44FFA1;
+    color: #24053E;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 22px;
+    border: 2px solid #44FFA1;
+    cursor: pointer;
+    transition: linear .3s;
+    margin-top: 40px;
+}
+
+.container button:hover {
+    background-color: #24053E;
+    color: #44FFA1;
+    border: 2px solid #44FFA1;
+}
+
+.image-hero {
+    max-width: 318px;
+    position: absolute;
+    left: calc(50% - 159px);
+    top: 395px;
+}
+
+main {
+    background-color: #FCF8FF;
+    text-align: center;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.info-item .info-number {
+    font-size: 20px;
+    color: #24053E;
+    border: solid 1px #24053E;
+    border-radius: 50%;
+    padding: 5px 16px;
+}
+
+main .infos h2 {
+    font-size: 28px;
+    color: #24053E;
+    margin-top: 24px;
+}
+
+main .infos p {
+    font-size: 16px;
+    color: #584D62;
+    margin-top: 16px;
+}
+
+footer {
+    margin-top: 300px;
+    padding: 16px;
+}
+
+.image-founder {
+    max-width: 281px;
+    position: absolute;
+    left: calc(50% - 140.5px);
+    top: 0;
+}
+
+footer .container {
+    background-color: #24053E;
+    text-align: center;
+    padding: 32px;
+    position: relative;
+}
+
+footer .container h2 {
+    font-size: 32px;
+    color: #FFF;
+}
+
+footer .container p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFF;
+    padding-top: 16px;
+}
+
+.images-footer {
+    padding-top: 74px;
+    padding-bottom: 74px;
+    text-align: center;
+}
+
+.images-links {
+    padding-top: 62px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 130px;
+    padding-right: 130px;
+}
